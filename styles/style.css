@@ -1,0 +1,57 @@
+body{
+    background-color: rgb(163, 227, 227);
+   
+}
+
+#f-container{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+#g-container{
+    display: grid;
+    grid-template-columns: 40px 1fr 40px;
+    grid-template-areas:
+    "a a a e"
+    ". b . e"
+    ". c . e"
+    "d d d e"
+    ". . . e"
+}
+
+
+.first-box{
+    background-color: blue;
+}
+.second-box{
+    background-color: pink;
+}
+.third-box{
+    background-color: white;
+}
+.fourth-box{
+    background-color: yellow;
+}
+.fifth-box{
+    background-color: red;
+}
+
+.flex-box-1{
+    background-color: blueviolet;
+    width: 550px;
+}
+
+.flex-box-2{
+background-color: green;
+width: 550px;
+
+}
+
+.first-box{grid-area: a;}
+.second-box{grid-area:b;}
+.third-box{grid-area:c;}
+.fourth-box{grid-area:d;}
+.fifth-box{grid-area:e;}
+
+
